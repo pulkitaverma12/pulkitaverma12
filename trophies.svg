@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="320" viewBox="0 0 620 320">
+<defs>
+  <linearGradient id="trophyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1a0a2e"/>
+    <stop offset="100%" style="stop-color:#0d0020"/>
+  </linearGradient>
+  <filter id="trophyShadow" x="-3%" y="-3%" width="106%" height="115%">
+    <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#9b59b6" flood-opacity="0.5"/>
+  </filter>
+  <linearGradient id="shineSweep" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:transparent"/>
+    <stop offset="50%" style="stop-color:rgba(255,255,255,0.1)"/>
+    <stop offset="100%" style="stop-color:transparent"/>
+  </linearGradient>
+</defs>
+
+<rect width="620" height="320" rx="12" fill="url(#trophyBg)" filter="url(#trophyShadow)"/>
+<rect width="620" height="320" rx="12" fill="none" stroke="#3a1a5e" stroke-width="1.5"/>
+
+<!-- Title -->
+<text x="20" y="35" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="bold" fill="#ffd700">🏆 GitHub Trophies</text>
+
+<!-- Shine sweep across whole card -->
+<rect x="-620" y="0" width="620" height="320" rx="12" fill="url(#shineSweep)">
+  <animate attributeName="x" values="-620;620" dur="4s" repeatCount="indefinite" begin="2s"/>
+</rect>
+
+
+  <g transform="translate(20,55)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.20s"/>
+    <animateTransform attributeName="transform" type="translate" values="20,75;20,55" dur="0.4s" fill="freeze" begin="0.20s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#ffd700" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#ffd700" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">S</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">🏆</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#ffd700" text-anchor="middle">MultiLanguage</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0.20s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#ffd700" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="1.20s"/>
+    </rect>
+  </g>
+  <g transform="translate(170,55)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.35s"/>
+    <animateTransform attributeName="transform" type="translate" values="170,75;170,55" dur="0.4s" fill="freeze" begin="0.35s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#c678dd" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#c678dd" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">A+</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">🔄</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c678dd" text-anchor="middle">Commits</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0.35s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#c678dd" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="1.35s"/>
+    </rect>
+  </g>
+  <g transform="translate(320,55)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.50s"/>
+    <animateTransform attributeName="transform" type="translate" values="320,75;320,55" dur="0.4s" fill="freeze" begin="0.50s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#ff79c6" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#ff79c6" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">A</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">📦</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#ff79c6" text-anchor="middle">Repositories</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0.50s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#ff79c6" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="1.50s"/>
+    </rect>
+  </g>
+  <g transform="translate(470,55)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.65s"/>
+    <animateTransform attributeName="transform" type="translate" values="470,75;470,55" dur="0.4s" fill="freeze" begin="0.65s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#50fa7b" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#50fa7b" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">B+</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">⭐</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#50fa7b" text-anchor="middle">Stars</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0.65s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#50fa7b" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="1.65s"/>
+    </rect>
+  </g>
+  <g transform="translate(20,185)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.80s"/>
+    <animateTransform attributeName="transform" type="translate" values="20,205;20,185" dur="0.4s" fill="freeze" begin="0.80s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#61dafb" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#61dafb" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">B</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">🔀</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#61dafb" text-anchor="middle">PullRequest</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0.80s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#61dafb" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="1.80s"/>
+    </rect>
+  </g>
+  <g transform="translate(170,185)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.95s"/>
+    <animateTransform attributeName="transform" type="translate" values="170,205;170,185" dur="0.4s" fill="freeze" begin="0.95s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#f1fa8c" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#f1fa8c" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">B</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">🐛</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#f1fa8c" text-anchor="middle">Issues</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="0.95s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#f1fa8c" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="1.95s"/>
+    </rect>
+  </g>
+  <g transform="translate(320,185)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="1.10s"/>
+    <animateTransform attributeName="transform" type="translate" values="320,205;320,185" dur="0.4s" fill="freeze" begin="1.10s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#ff5555" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#ff5555" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">C</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">👥</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#ff5555" text-anchor="middle">Followers</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="1.10s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#ff5555" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="2.10s"/>
+    </rect>
+  </g>
+  <g transform="translate(470,185)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="1.25s"/>
+    <animateTransform attributeName="transform" type="translate" values="470,205;470,185" dur="0.4s" fill="freeze" begin="1.25s"/>
+    <!-- Trophy cell bg -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#1a0a2e" stroke="#ffd700" stroke-width="1.5" opacity="0.8"/>
+    <!-- Rank badge -->
+    <rect x="90" y="4" width="32" height="20" rx="10" fill="#ffd700" opacity="0.9"/>
+    <text x="106" y="18" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">S</text>
+    <!-- Icon -->
+    <text x="65" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="28" text-anchor="middle">🎯</text>
+    <!-- Title -->
+    <text x="65" y="76" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#ffd700" text-anchor="middle">Experience</text>
+    <!-- Shine sweep -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="none">
+      <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite" begin="1.25s"/>
+    </rect>
+    <!-- Glow effect on rank -->
+    <rect x="0" y="0" width="130" height="110" rx="10" fill="#ffd700" opacity="0">
+      <animate attributeName="opacity" values="0;0.05;0" dur="2s" repeatCount="indefinite" begin="2.25s"/>
+    </rect>
+  </g>
+
+</svg>
