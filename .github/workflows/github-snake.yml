@@ -6,11 +6,14 @@ on:
     - cron: "0 6 * * *"
   # Allow manual trigger from Actions tab
   workflow_dispatch:
-  # Also run on push to main/master
+  # Also run on push to main
   push:
     branches:
       - main
-      - master
+
+# ✅ Grant write access so the action can push to the "output" branch
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -21,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution snake (dark theme)
+      - name: Generate contribution snake (light + dark theme)
         uses: Platane/snk@v3
         with:
           github_user_name: pulkitaverma12
@@ -31,13 +34,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Override colors for custom pink/purple snake
-      - name: Generate custom colored snake
+      - name: Generate custom pink/purple snake
         uses: Platane/snk@v3
         with:
           github_user_name: pulkitaverma12
           outputs: |
-            dist/github-snake-custom.svg?color_snake=ff79c6&color_dots=#ff79c6,#c678dd,#7c3aed,#4c1d95,#2d1b69
+            dist/github-snake-pink.svg?color_snake=ff79c6&color_dots=#ff79c6,#c678dd,#7c3aed,#4c1d95,#2d1b69
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

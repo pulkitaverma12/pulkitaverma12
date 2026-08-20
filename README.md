@@ -1,147 +1,92 @@
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--  Pulkita Verma — GitHub Profile README                                  -->
-<!--  Auto-switches dark ↔ light banner using prefers-color-scheme           -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-<!-- Dark / Light Banner (GitHub renders the first <picture> natively) -->
+<!-- ✨ Animated Banner ✨ -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="./banner.svg?v=1">
   <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-  <img src="./banner.svg?v=1" alt="Pulkita Verma — Animated Banner" width="100%"/>
+  <img src="./banner.svg?v=1" alt="Pulkita Verma — Full Stack Developer" width="100%"/>
 </picture>
-
-<br/>
-
-<!-- Lanyard Badge -->
-<img src="./lanyard.svg?v=1" alt="Pulkita Verma — Developer ID Badge" height="460"/>
 
 </div>
 
----
+<br/>
 
-## 👩‍💻 About Me
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
 
-```typescript
-const pulkita = {
-  name        : "Pulkita Verma",
-  education   : "B.Tech CSE — Final Year",
-  location    : "India 🇮🇳",
-  email       : "pulkitaverma10@gmail.com",
-  github      : "@pulkitaverma12",
-  passions    : ["Full Stack Dev", "QA Automation", "Real-Time Systems", "ML"],
-  currentFocus: "WebRTC • NATS • Selenium • PyTorch",
-  funFact     : "I debug with coffee ☕ and rubber-duck diplomacy 🦆",
-};
-```
+<!-- 🪪 Swinging Lanyard ID Card (pure SVG) -->
+<img src="./lanyard.svg?v=1" alt="Pulkita Verma ID badge" width="280"/>
 
----
+</td>
+<td width="62%" valign="middle">
 
-## 🛠️ Tech Stack
+### 🚀 Featured Projects
 
-### Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+| 🎯 Project | 💻 Tech | ⭐ |
+|:---|:---:|:---:|
+| [🎥 Video Call App](https://github.com/pulkitaverma12) | `React` `Node.js` `WebRTC` `NATS` | 🔥 |
+| [🤖 QA Automation Suite](https://github.com/pulkitaverma12) | `Python` `Selenium` `Jira API` | ⚡ |
+| [🧠 ML Pipeline](https://github.com/pulkitaverma12) | `Python` `PyTorch` `PostgreSQL` | 🧠 |
+| [🌐 Full Stack CRUD](https://github.com/pulkitaverma12) | `React` `Express.js` `Prisma` `MySQL` | 🌐 |
+| [📡 Real-Time Chat](https://github.com/pulkitaverma12) | `Node.js` `NATS` `WebSockets` | 💬 |
 
-### Frontend & Backend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+<br/>
 
-### Databases & ORMs
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+> 💜 *"Code. Dream. Ship. Repeat."* ✨
 
-### Real-Time & ML
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
-![NATS](https://img.shields.io/badge/NATS-27AAE1?style=for-the-badge&logo=natsdotio&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
+</td>
+</tr>
+</table>
 
-### QA & DevOps Tools
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
-
----
-
-## 📊 GitHub Stats
+<br/>
 
 <div align="center">
 
-<!-- Local stat cards (no rate-limiting, no third-party dependency) -->
-<img src="./stats.svg?v=1" alt="GitHub Stats" height="195"/>
-&nbsp;&nbsp;
-<img src="./langs.svg?v=1" alt="Top Languages" height="220"/>
+### 📊 GitHub Stats & Graphs
+
+<img src="./stats.svg?v=1" alt="GitHub Stats" height="225"/>
+<img src="./langs.svg?v=1" alt="Top Languages" height="245"/>
 
 <br/><br/>
 
-<img src="./trophies.svg?v=1" alt="GitHub Trophies" width="620"/>
+<img src="https://streak-stats.demolab.com?user=pulkitaverma12&theme=radical&hide_border=true&background=0d0020&ring=ff79c6&fire=e040fb&currStreakLabel=c678dd" alt="GitHub Streak"/>
 
-</div>
+<br/><br/>
 
----
+<!-- 📈 Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pulkitaverma12&bg_color=0d0020&color=ff79c6&line=7c3aed&point=e040fb&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Graph%20💜" alt="Contribution graph" width="95%"/>
 
-## 🚀 Featured Projects
+<br/><br/>
 
-<div align="center">
+<!-- 🏆 Trophies (local animated SVG) -->
+<img src="./trophies.svg?v=1" alt="GitHub Trophies" width="95%"/>
 
-| 🎯 Project | 📝 Description | 🛠 Stack | ⭐ |
-|:---:|:---:|:---:|:---:|
-| **[Video Call App](https://github.com/pulkitaverma12)** | Real-time P2P video with WebRTC & ICE config | React, Node.js, WebRTC, NATS | 🔥 |
-| **[QA Automation Suite](https://github.com/pulkitaverma12)** | End-to-end Selenium test framework with Jira integration | Python, Selenium, Jira API | ⚡ |
-| **[ML Pipeline](https://github.com/pulkitaverma12)** | PyTorch model training & inference pipeline | Python, PyTorch, PostgreSQL | 🧠 |
-| **[Full Stack CRUD](https://github.com/pulkitaverma12)** | REST API with Prisma ORM + React dashboard | React, Express.js, Prisma, MySQL | 🌐 |
+<br/><br/>
 
-</div>
+### 🐍 Watch the snake eat my contributions
 
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<!-- GitHub snake contribution graph (generated daily by GitHub Action) -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/pulkitaverma12/pulkitaverma12/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pulkitaverma12/pulkitaverma12/output/github-snake.svg">
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/pulkitaverma12/pulkitaverma12/output/github-snake.svg" width="100%"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/pulkitaverma12/pulkitaverma12/output/github-snake-dark.svg"/>
 </picture>
 
-</div>
+<br/><br/>
 
----
+### 📫 Let's Connect
 
-## 🌐 Connect With Me
+<a href="mailto:pulkitaverma10@gmail.com"><img src="https://img.shields.io/badge/Email-ff79c6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/pulkitaverma12"><img src="https://img.shields.io/badge/GitHub-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://linkedin.com/in/pulkitaverma12"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://leetcode.com/pulkitaverma12"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"/></a>
 
-<div align="center">
+<br/><br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-pulkitaverma12-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulkitaverma12)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pulkita_Verma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pulkitaverma12)
-[![Email](https://img.shields.io/badge/Email-pulkitaverma10%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pulkitaverma10@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-pulkitaverma12-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/pulkitaverma12)
+<img src="https://komarev.com/ghpvc/?username=pulkitaverma12&color=ff79c6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
-</div>
+<br/><br/>
 
----
-
-<div align="center">
-
-<!-- Profile views counter -->
-![Profile Views](https://komarev.com/ghpvc/?username=pulkitaverma12&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-
-<br/>
-
-*"Code. Dream. Ship. Repeat." ✨*
-
-**Thanks for visiting! Drop a ⭐ if you find something useful 💜**
+*⭐️ Always learning, always building.* 💜
 
 </div>
